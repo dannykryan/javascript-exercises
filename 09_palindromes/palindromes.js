@@ -5,11 +5,7 @@ const palindromes = function (string) {
 
   var stringB = stringA.split("").reverse().join("");
 
-  if (stringA == stringB) {
-    return true;
-  } else {
-    return false;
-  }
+  return stringA === stringB;
 };
 
 // Do not edit below this line
